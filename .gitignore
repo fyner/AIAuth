@@ -1,0 +1,11 @@
+﻿/node_modules
+.env
+logs
+*.log
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+.npm
+.eslintcache
+.node_repl_history

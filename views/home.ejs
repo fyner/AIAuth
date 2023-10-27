@@ -5,17 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
-  <script>
-    function updateURL() {
-      document.getElementById('current-url').textContent = window.location.href;
-    }
-    document.addEventListener('DOMContentLoaded', updateURL);
-    window.addEventListener('popstate', updateURL);
-  </script>
 </head>
 <body>
-  <h1>Home</h1>
-  <p>Welcome, <%= username %>!</p>
-  <p>Current URL: <span id="current-url"></span></p>
+  <h1>Welcome <%= username %>!</h1>
+  <p>Real Link: <%= realLink %></p>
+  <a href="/logout">Logout</a>
 </body>
 </html>

@@ -5,7 +5,7 @@ Configuravimas
 
 npm init -y
 
-npm install express sqlite3 bcryptjs body-parser express-session ejs
+npm install bcryptjs body-parser dotenv express express-session helmet sqlite3 ejs
 
 Jeigu naudosi Elektron 
 
